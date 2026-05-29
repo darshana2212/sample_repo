@@ -3,65 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spotify Inspired UI</title>
-
+  <title>Spotify Clone UI</title>
   <link rel="stylesheet" href="style.css">
-
-  <!-- Optional favicon -->
-  <link rel="icon" href="assets/trending.jpg">
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <h2 class="logo">Spotify</h2>
+<div class="app">
 
-    <ul>
-      <li>Home</li>
-      <li>Search</li>
-      <li>Library</li>
-    </ul>
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>🎧 Spotify</h2>
+    <p>Home</p>
+    <p>Search</p>
+    <p>Your Library</p>
+  </div>
 
-    <button onclick="toggleMode()">Toggle Mode</button>
-  </nav>
+  <!-- MAIN CONTENT -->
+  <div class="main">
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <h1>Music for Everyone 🎧</h1>
-    <p>Stream your favorite playlists anytime, anywhere.</p>
-    <button onclick="startApp()">Get Started</button>
-  </section>
-
-  <!-- PLAYLIST SECTION -->
-  <section class="playlist-section">
-    <h2>Featured Playlists</h2>
+    <header>
+      <h1>Good Evening</h1>
+    </header>
 
     <div class="grid">
 
       <div class="card">
-        <img src="assets/trending.jpg" alt="Trending Hits">
-        <p>🔥 Trending Hits</p>
+        <img src="assets/trending.jpg">
+        <p>Trending Hits</p>
       </div>
 
       <div class="card">
-        <img src="assets/love.jpg" alt="Love Songs">
-        <p>💖 Love Songs</p>
+        <img src="assets/love.jpg">
+        <p>Love Songs</p>
       </div>
 
       <div class="card">
-        <img src="assets/chill.jpg" alt="Chill Vibes">
-        <p>🌙 Chill Vibes</p>
+        <img src="assets/chill.jpg">
+        <p>Chill Vibes</p>
       </div>
 
       <div class="card">
-        <img src="assets/workout.jpg" alt="Workout Mix">
-        <p>🚀 Workout Mix</p>
+        <img src="assets/workout.jpg">
+        <p>Workout Mix</p>
       </div>
 
     </div>
-  </section>
 
-  <script src="script.js"></script>
+  </div>
+
+</div>
+<script src="script.js"></script>
 </body>
 </html>
