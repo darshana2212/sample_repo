@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: black;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+/* BUTTON */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background: #1db954;
+  color: white;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #1db954, #121212);
+}
+
+/* PLAYLIST */
+.playlist-section {
+  padding: 40px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #181818;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: #282828;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* LIGHT MODE */
+.light {
+  background: white;
+  color: black;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: white;
+}
+
+.navbar li {
+  cursor: pointer;
+}

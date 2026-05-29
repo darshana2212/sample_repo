@@ -1,23 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Inspired UI</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Optional favicon -->
+  <link rel="icon" href="assets/trending.jpg">
 </head>
+
 <body>
 
-    <h1>Hello 👋</h1>
-    <p>This is my simple HTML webpage.</p>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">Spotify</h2>
 
-    <h2>About Me</h2>
-    <p>I am learning web development and this is my first GitHub project.</p>
-
-    <h2>Hobbies</h2>
     <ul>
-        <li>Coding</li>
-        <li>Music</li>
-        <li>Design</li>
+      <li>Home</li>
+      <li>Search</li>
+      <li>Library</li>
     </ul>
 
+    <button onclick="toggleMode()">Toggle Mode</button>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>Music for Everyone 🎧</h1>
+    <p>Stream your favorite playlists anytime, anywhere.</p>
+    <button onclick="startApp()">Get Started</button>
+  </section>
+
+  <!-- PLAYLIST SECTION -->
+  <section class="playlist-section">
+    <h2>Featured Playlists</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <img src="assets/trending.jpg" alt="Trending Hits">
+        <p>🔥 Trending Hits</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/love.jpg" alt="Love Songs">
+        <p>💖 Love Songs</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/chill.jpg" alt="Chill Vibes">
+        <p>🌙 Chill Vibes</p>
+      </div>
+
+      <div class="card">
+        <img src="assets/workout.jpg" alt="Workout Mix">
+        <p>🚀 Workout Mix</p>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
